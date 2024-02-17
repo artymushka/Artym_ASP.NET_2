@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "CompanyService.Controllers.EmployeeController",
+    "Method": "GetCompanyWithMostEmployees",
+    "RelativePath": "Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

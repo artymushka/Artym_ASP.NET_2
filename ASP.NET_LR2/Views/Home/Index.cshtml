@@ -1,0 +1,17 @@
+﻿@model CompanyService.Controllers.HomeViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Головна сторінка</title>
+</head>
+<body>
+    <h1>Компанія з найбільшою кількістю співробітників</h1>
+    <p>@Model.CompanyWithMostEmployees</p>
+
+    <h1>Моя інформація</h1>
+    <p>Ім'я: @Model.MyInfo.Name</p>
+    <p>Прізвище: @Model.MyInfo.Secondname</p>
+    <p>Місто: @Model.MyInfo.City</p>
+</body>
+</html>
